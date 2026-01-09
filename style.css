@@ -1,3 +1,55 @@
-h1 {
-    color: aqua;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+nav {
+    width: 85%;
+    max-width: 1360px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    margin-top: 16px;
+}
+
+nav .menu {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    justify-content: center;
+}
+
+nav .menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 34px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+
+nav .menu .btn {
+    background-color: #30B868;
+    margin-top: 24px;
+    padding: 12.5px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;   
+}
+
+
